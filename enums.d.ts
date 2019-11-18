@@ -25,7 +25,7 @@
 
 
     declare enum RemoteButton {   
-	  NUM0 = 0x19,
+	  NUM0 = 0x16,
 	  NUM1 = 0x45,
 	  NUM2 = 0x46,
 	  NUM3 = 0x47,
