@@ -28,27 +28,73 @@ enum class Pins{
 };
 
 enum class RemoteButton {
-    CH_MINUS = 0x16,
-	  CH = 0x0c,
-	  CH_Add = 0x18,
-	  PREV = 0x5e,
-	  PLAY = 0x8,
-	  NUM_200 = 0x1c,
-	  NEXT = 0x5a,
-	  NUM_100 = 0x42,
-	  Minus = 0x52,
-	  Add = 0x4A,
-	  EQ = 0x19,
-	  NUM0 = 0x19,
-	  NUM1 = 0x45,
-	  NUM2 = 0x46,
-	  NUM3 = 0x47,
-	  NUM4 = 0x44,
-	  NUM5 = 0x40,
-	  NUM6 = 0x43,
-	  NUM7 = 0x07,
-	  NUM8 = 0x15,
-	  NUM9 = 0x09
+    //% block=number1
+      number1 = 0x45,
+
+      //% block=number2
+
+	number2 = 0x46,
+
+      //% block=number3
+
+	  number3 = 0x47,
+
+      //% block=number4
+
+	  number4 = 0x44,
+
+      //% block=number5
+
+	  number5 = 0x40,
+
+      //% block=number6
+
+	  number6 = 0x43,
+
+      //% block=number7
+
+	  number7 = 0x07,
+
+      //% block=number8
+
+	 number8 = 0x15,
+
+      //% block=number9
+
+	  number9 = 0x09,
+
+      //% block=number0
+
+      number0 = 0x19,
+
+	  //% block=#
+
+	  EQ = 0x0d,
+
+      //% block=*
+
+	  NUM0 = 0x16,
+
+      //% block=up
+
+	  up = 0x18,
+
+      //% block=left
+
+	  left = 0x8,
+
+      //% block=OK
+
+	  OK = 0x1c,
+
+      //% block=right
+
+	 right = 0x5a,
+
+      //% block=down
+
+	  down = 0x52,
+
 };
 
 //% color=50 weight=19
