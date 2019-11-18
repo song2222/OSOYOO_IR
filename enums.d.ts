@@ -39,7 +39,7 @@
 	  red_right= 0x16,
 	  up = 0x18,
 	  left = 0x8,
-	  redok = 0x1c,
+	  ok = 0x1c,
 	  right = 0x5a,
 	  down = 0x52,
     }
