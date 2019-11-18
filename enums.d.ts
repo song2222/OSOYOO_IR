@@ -25,38 +25,22 @@
 
 
     declare enum RemoteButton {   
-	   number1 = 0x45,
-
-	  number2 = 0x46,
-
-	  number3 = 0x47,
-
-	  number4 = 0x44,
-
-	  number6 = 0x43,
-
-	  number11 = 0xd,
-
-	  number5 = 0x40,
-
-	  number0 = 0x19,
-
-	  number7 = 0x7,
-
-	  number8 = 0x15,
-
-	  number9 = 0x9,
-
-	  NUM10 = 0x16,
-
+	  num0 = 0x19,
+	  num1 = 0x45,
+	  num2 = 0x46,
+	  num3 = 0x47,
+	  num4 = 0x44,
+	  num5 = 0x40,
+	  num6 = 0x43,
+	  num7 = 0x7,
+	  num8 = 0x15,
+	  num9 = 0x9,
+	  red_# = 0xd,
+	  red_* = 0x16,
 	  up = 0x18,
-
 	  left = 0x8,
-
 	  ok = 0x1c,
-
 	  right = 0x5a,
-
 	  down = 0x52,
     }
 declare namespace Mbit_IR {
