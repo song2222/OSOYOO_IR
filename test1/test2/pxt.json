@@ -1,6 +1,6 @@
 {
     "name": "OSOYOO_IR",
-    "version": "2.0.0",
+    "version": "1.0.0",
     "description": "Extension for OSOYOO micro:bit IR receiver module",
     "license": "MIT",
     "dependencies": {
