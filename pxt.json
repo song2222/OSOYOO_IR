@@ -1,20 +1,23 @@
 {
-    "name": "OSOYOO_IR",
-    "version": "1.0.0",
-    "description": "Extension for OSOYOO micro:bit IR receiver module",
+    "name": "MCP23017",
+    "version": "0.0.0",
+    "description": "NONE",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "radio": "*"
     },
     "files": [
-        "shims.d.ts",
-        "enums.d.ts",
-        "ir.cpp",
-        "ReceiverIR.cpp",
-        "ReceiverIR.h",
-        "RemoteIR.h",
-        "TransmitterIR.cpp",
-        "TransmitterIR.h"
+        "README.md",
+        "main.blocks",
+        "MCP23017.ts"
     ],
-    "public": true
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
 }
